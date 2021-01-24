@@ -1,0 +1,31 @@
+
+body{
+    
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(245, 228, 244);
+}
+
+.hover:hover
+{
+    background-color: rgb(212,178,245);
+    
+}
+.btn 
+{
+    background-color: rgb(202,191,200);
+    cursor:pointer;
+    margin:auto;
+    padding: 12px 12px;
+}
+.inline
+{
+    display:inline-block;
+}
+p
+{
+    font-family:cursive;
+}
+h2:hover{
+    box-shadow:5px 10px 18px 5px violet;
+}

@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title> Registratioon Form</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+		
+	<body>
+		<script src="validate.js">
+			
+		</script>
+		<form name="RegForm" onsubmit=" return validate()">	
+			
+				<h2>Register</h2>
+				<p><b>Fill in the following details to register.</b></p>
+			
+			<div class="container">	
+			    <hr>
+		 		<lable for="fname" >First Name:</lable>
+				<input class="hover" id="fname" type="text" name="fname" placeholder="Enter Firstname" />
+				<br><br>
+				<lable for="lname" >Last Name:</lable>
+				<input class="hover" id="lname" type="text" name="lname" placeholder="Enter Lastname"  / >
+				<br><br>
+				<lable for="phone" >Phone NO:</lable>
+				<input class="hover" id="phone" type="number" name="phone" placeholder="Enter PhoneNumber"   />
+				<br><br>
+				<lable for="dob">Date Of Birth:</lable>
+				<input class="hover" type="date" name="dob" placeholder="DateOfBirth" required />
+				<br><br>
+				<lable for="email">Email:</lable>
+				<input class="hover" id="email" type="text" name="email" placeholder="Enter Email"/>
+				<br><br>
+				<lable for="pwd">Password:</lable>
+				<input class="hover" id="pwd" type="password" name="pwd" placeholder="Enter Password"   />
+				<br><br>
+
+				<div class="inline">
+				<lable for="Gender">Gender:</lable>
+				<input    type="radio" name="gender" required/>Male
+			    <input   type="radio" name="gender" required/>Female<br>
+				</div>
+			<hr>
+			<p>By creating an account you have agreed to our <a href="#">Terms & Conditions.</a></p>
+			<button class="btn" type="submit" name="submit">Register</button>
+			</div>
+
+			<div class="footer">
+			<p>Already have an account? <a href="#">Sign in </a></p>
+			</div>	
+			
+		 
+		</form>
+		
+	</body>
+</html>
